@@ -1,9 +1,9 @@
-# dream-system
+# dream-systems
 This project contains scripts/modules for distributed training on pytorch<br>
 Based on current deep learning models, size of datasets, training methodologies; waiting for a model to train on a single GPU can be compared to waiting for an infant to take the first steps
 
 Let's cut to the chase.<here>
-In this repository I try to simplify the concepts and (a few)implementations for distributed training
+In this repository I try to simplify the concepts and (a few) implementations for distributed training
 
 ## Introduction
 
