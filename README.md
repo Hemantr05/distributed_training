@@ -32,3 +32,4 @@ Certain concepts and implementations have been picked up raw, you find the same 
 5. https://qr.ae/pGQvpr
 6. https://keras.io/guides/distributed_training/
 7. https://www.tensorflow.org/guide/distributed_training
+8. https://lambdalabs.com/blog/introduction-multi-gpu-multi-node-distributed-training-nccl-2-0/
