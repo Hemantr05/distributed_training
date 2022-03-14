@@ -10,9 +10,8 @@ Nvidia's Apex is the best alterative to traditional distributed training for the
 
 ## Changes as compared to torch
 
-- *Replace nn.DistributedDataParallel*
+- *Replace nn.DistributedDataParallel with apex.parallel.DistributedDataParallel*
 <br>
-dsdsds
 
 
 - *Saving model/loading checkpoints*
