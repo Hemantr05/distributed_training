@@ -46,9 +46,13 @@ Nvidia's Apex is the best alterative to traditional distributed training for the
 - single node, multi-devices
 <br>
 
-``` $ python main.py --nodes 1 --gpus 2 --epochs 5```
+``` 
+    $ python main.py --nodes 1 --gpus 2 --epochs 5
+```
 
 - multi-node, multi-devices
 <br>
 
-``` $ python main.py --nodes 2 --gpus 2 --epochs 5```
+``` 
+    $ python main.py --nodes 2 --gpus 2 --epochs 5
+```

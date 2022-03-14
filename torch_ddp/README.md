@@ -70,16 +70,16 @@ The weight will remain at 32-bit, whereas other parameters like loss, gradients,
 - single node, multi-devices
 <br>
 
-    ```
+```
     $ python main.py --nodes 1 --gpus 2 --epochs 5
-    ```
+```
 
 - multi-node, multi-devices
 <br>
 
-    ```
+```
     $ python main.py --nodes 2 --gpus 2 --epochs 5
-    ```
+```
 
 ## References
 
