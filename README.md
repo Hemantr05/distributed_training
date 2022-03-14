@@ -7,7 +7,7 @@ In this repository I try to simplify the concepts and (a few) implementations fo
 
 ## Introduction
 
-There are generally two ways to distribute computation across multiple devices:
+There are generally two ways to distributed computation across multiple devices:
 
 - Data Parallelism: where a single model gets replicated on multiple devices or multiple machines. Each of them processes different batches of data, then they merge their results. There exist many variants of this setup, that differ in how the different model replicas merge results, in whether they stay in sync at every batch or whether they are more loosely coupled, etc.
 - Model Parallelism: where different parts of a single model run on different devices, processing a single batch of data together. This works best with models that have a naturally-parallel architecture, such as models that feature multiple branches.
