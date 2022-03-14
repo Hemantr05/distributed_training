@@ -16,30 +16,30 @@ Nvidia's Apex is the best alterative to traditional distributed training for the
 
 - *Saving model/loading checkpoints*
 
-```python
-# Save checkpoint
-checkpoint = {
-    'model': model.state_dict(),
-    'optimizer': optimizer.state_dict(),
-    'amp': amp.state_dict()
-}
-torch.save(checkpoint, 'amp_checkpoint.pt')
-...
+    ```python
+    # Save checkpoint
+    checkpoint = {
+        'model': model.state_dict(),
+        'optimizer': optimizer.state_dict(),
+        'amp': amp.state_dict()
+    }
+    torch.save(checkpoint, 'amp_checkpoint.pt')
+    ...
 
 
-# Restore
-model = ...
-optimizer = ...
-checkpoint = torch.load('amp_checkpoint.pt')
+    # Restore
+    model = ...
+    optimizer = ...
+    checkpoint = torch.load('amp_checkpoint.pt')
 
-model, optimizer = amp.initialize(model, optimizer, opt_level=opt_level)
-model.load_state_dict(checkpoint['model'])
-optimizer.load_state_dict(checkpoint['optimizer'])
-amp.load_state_dict(checkpoint['amp'])
+    model, optimizer = amp.initialize(model, optimizer, opt_level=opt_level)
+    model.load_state_dict(checkpoint['model'])
+    optimizer.load_state_dict(checkpoint['optimizer'])
+    amp.load_state_dict(checkpoint['amp'])
 
-# Continue training
-...
-```
+    # Continue training
+    ...
+    ```
 
 ## Usage
 
