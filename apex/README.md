@@ -46,12 +46,14 @@ amp.load_state_dict(checkpoint['amp'])
 
 - single node, multi-devices
 <br>
+
 ```
 $ python main.py --nodes 1 --gpus 2 --epochs 5
 ```
 
 - multi-node, multi-devices
 <br>
+
 ```
 $ python main.py --nodes 2 --gpus 2 --epochs 5
 ```
