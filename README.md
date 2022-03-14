@@ -1,4 +1,4 @@
-# dream-systems
+# distributed_training
 This project contains scripts/modules for distributed training<br>
 Based on current deep learning models, size of datasets, training methodologies; waiting for a model to train on a single GPU can be compared to waiting for an infant to take the first steps
 
