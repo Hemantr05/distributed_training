@@ -171,8 +171,8 @@ Nvidia's Apex is the best alterative to traditional distributed training for the
 
 **References**
 
-1. https://towardsdatascience.com/how-to-scale-training-on-multiple-gpus-dae1041f49d2#:~:text=PyTorch%20built%20two%20ways%20to,the%20network%20in%20multiple%20GPUs.
-2. https://developer.nvidia.com/blog/mixed-precision-training-deep-neural-networks/
+1. [How to scale training on multiple gpus](https://towardsdatascience.com/how-to-scale-training-on-multiple-gpus-dae1041f49d2#:~:text=PyTorch%20built%20two%20ways%20to,the%20network%20in%20multiple%20GPUs)
+2. [mixed precision trianing deep neural networks by Nvidia](https://developer.nvidia.com/blog/mixed-precision-training-deep-neural-networks/)
 3. https://yangkky.github.io/2019/07/08/distributed-pytorch-tutorial.html
 4. https://pytorch.org/tutorials/intermediate/ddp_tutorial.html
 5. https://qr.ae/pGQvpr
